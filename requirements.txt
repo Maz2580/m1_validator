@@ -1,0 +1,50 @@
+# Core dependencies
+requests>=2.31.0
+pandas>=2.0.3
+python-dotenv>=1.0.0
+schedule>=1.2.0
+
+# Email handling
+secure-smtplib>=0.1.1
+
+# Database connectivity
+pyodbc>=4.0.39
+sqlalchemy>=2.0.0
+
+# Excel file handling
+openpyxl>=3.1.2
+xlsxwriter>=3.1.0
+
+# File and archive handling
+zipfile36>=0.1.3
+
+# Logging and monitoring
+colorlog>=6.7.0
+python-json-logger>=2.0.7
+
+# Date and time handling
+python-dateutil>=2.8.2
+
+# Configuration validation
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Windows service creation
+pywin32>=306; sys_platform == "win32"
+
+# Spatial data handling (optional)
+fiona>=1.9.0
+geopandas>=0.13.0
+
+# Progress tracking
+tqdm>=4.66.0
+
+# Retry mechanisms
+tenacity>=8.2.0
